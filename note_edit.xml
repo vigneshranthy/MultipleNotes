@@ -32,7 +32,16 @@
 		    android:layout_height="wrap_content"
 		    android:layout_alignParentRight="true"			    
 		    android:paddingRight="10sp"			    
-		    android:textSize="18sp" />		
+		    android:textSize="18sp" />
+
+		<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="speak"
+			android:id="@+id/speak"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@+id/notelist_date" />
 	</RelativeLayout>
 
 	<view
